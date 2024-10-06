@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background:#222831;
+  --foreground: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background:  #222831;;
+    --foreground: #fff;
   }
 }
 
@@ -20,8 +20,46 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ADB5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.glassmorphism2 {
+ 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+
+
+.Down{
+  width: 96px;
+  height: 96px;
+  left: 464px;
+  padding: 30px 0px 30px 0px;
+  gap: 0px;
+  opacity: 0px;
+  
 }
