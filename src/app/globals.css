@@ -54,6 +54,33 @@ html {
 
 
 
+  .Fonts{
+    font-family: Poppins , sans-serif;
+  
+  }
+
+  input::placeholder{
+    font-family: Poppins , sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align:start;
+
+padding: 20px;
+
+  }
+
+  textarea::placeholder{
+    font-family: Poppins , sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align:start;
+    
+    padding: 20px;
+  }
+
+
 .Down{
   width: 96px;
   height: 96px;
@@ -62,4 +89,19 @@ html {
   gap: 0px;
   opacity: 0px;
   
+}
+
+
+.projects-bg{
+  background: url("/doodle.png");
+  background-repeat: repeat;
+  background-size: 514.67px 386px;
+}
+
+
+
+
+.Filter{
+  backdrop-filter: blur(8px)
+
 }

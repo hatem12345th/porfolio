@@ -29,6 +29,7 @@ export default function Home() {
             alt="ddd"
 
           />
+
                     </button>
               </div>    
         </h1> 
@@ -48,7 +49,14 @@ export default function Home() {
             width={400}
             height={472.65}
             alt="ddd"
-                className="absolute top-36"
+                className="absolute z-50 top-[155px]"
+          />
+
+<Image src={"/Ellipse 3.png"} 
+            width={348}
+            height={24}
+            alt="ddd"
+                className=" absolute  left-1 "
           />
 
       </div>
@@ -56,9 +64,7 @@ export default function Home() {
 
 
       
-      <button className="absolute Down bottom-10  bg-[#393E46BF] hover:bg-[#00ADB5] items-center flex justify-center ">
-      <MoveDown size={54} />
-      </button>
+     
 
 
     </main>

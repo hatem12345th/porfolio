@@ -18,9 +18,9 @@ export const Navbar = () => {
                         <h1  className=' px-24  font-bold text-2xl  '> SaulDesign  </h1>
                     <ul className=' flex gap-10 px-24 cursor-pointer '>
                         {
-                            ["home","About us","Contact"].map((item,index) => (
+                            ["home","projects","About us","Contact"].map((item,index) => (
                                 <Link href={Url[index]}>
-                               <li className={`font-normal text-lg   ${Url[index] == pathname ? " text-[#00ADB5]  ":"text-[#eeeeee]"  } `}>
+                               <li className={`font-bold text-xl px-2  text-[#eeeeee] ${Url[index] == pathname ? " bg-blue  rounded-[10px]    ":"hover:text-blue transition-colors duration-100"  } `}>
                                         {item}
 
                                 </li>
@@ -43,4 +43,4 @@ export const Navbar = () => {
 
 
 
-const Url = ["/","/about","/contact"]
+const Url = ["/","/projects","/about","/contact"]
