@@ -13,11 +13,37 @@ export const projects = [
 {
     title:"",
     description:"",
-    image:""
+    image:"",
+    github:"",
+
+
+
+},{
+    title:"",
+    description:"",
+    image:"",
+    github:"",
 
 
 
 },
+{
+    title:"",
+    description:"",
+    image:"",
+    github:"",
+
+
+
+},{
+    title:"",
+    description:"",
+    image:"",
+    github:"",
+
+
+
+}
 
 
 

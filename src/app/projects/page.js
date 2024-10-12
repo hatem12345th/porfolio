@@ -36,20 +36,28 @@ const [category,setCaegory] = useState("All")
 
       </section>
 
-        <section className='grid grid-cols-3  gap-2.5 ' >
+        <section className='grid grid-cols-4 py-5  gap-2.5 ' >
           {projects.map((item,index) => (
               <div 
                 key={item+index}
-              className=' h-[600px] relative rounded-2xl bg-[#393E46] Filter'>
+              className=' h-[500px]  w-96 relative rounded-2xl bg-[#393E46] Filter'>
                     <img
                       src='https://s3-alpha-sig.figma.com/img/0af8/e23c/d8af9f2bc81da5a4047ecdc800007d18?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WHfgqXVj0tJACGsKgBsUafdYIKIlQmImqKWOU-1zR-3UFL3yoD5KrSPfZupg6ZFtmrFeAlpkx7KtgmAcmkXSJ~S3yRO8wFXWLd2w9vj-j4KnMRiLMttbt2fOqY6hbKYqIXiALeHbMxSu~80DFv6tCnnB84XuC3hbRbqc8nLQ3Oy2Py5YDliAMtWwR524qYOESO0l4WuASMfKJFxCOrVBWEIbZCZjZd-cL-9ohhvbwQJob3jf6vJp6IGuReVf84llS8uJqQBBZvAxOFPGGoHWQUkbSOrXkZvsjF9Nv7HsDtJx10bBGXYr48je2VBJjJKPFV7B9PNK8ZSO~~3n0XPwwA__'
                       className='rounded-2xl'
                     /> 
+                    <a href='https://github.com/hatem12345th/' target='_blank'>
                     <Image src={"/github.png"} 
-                      width={100}
-                      height={100}
-                      className='absolute top-0 right-0 z-50  rounded-full'
-                    />
+                      width={50}
+                      height={50}
+                      className='absolute top-1 right-1 z-50 bg-[#393E46] rounded-full'
+                    />  
+                      <p className='w-80 '>
+                        {item?.description}
+
+                      </p>
+
+                    </a>
+                    
 
 
 
